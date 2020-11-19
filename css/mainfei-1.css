@@ -1,0 +1,230 @@
+.middle{
+    width: 1000px;
+    height: 130px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+}
+.middle>h6{
+    color: #686563;
+    font-size: 38px;
+}
+.middle>ul{
+    width: 332px;
+    position: absolute;
+    top: 86px;
+    left: 337px;
+}
+.middle>ul>li{
+    float: left;
+    width: 166px;
+    height: 40px;
+    margin: 0px auto;
+}
+.middle>ul>li>a{
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #d4cfcf;
+}
+.middle>ul>.red{
+    border-bottom: 4px solid#fe8d77 ;
+}
+.middle>ul>.red>a{
+   color: #fe8d77;
+}
+.now{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-top: 2px solid #f9f9f9;
+    text-align: center;
+}
+.now>span{
+    margin-left: 57px;
+    margin-right: 57px;
+    font-size: 17px;
+    color: #d4cfcf;
+}
+.now>.gray{
+    color: #333333;
+}
+.imgs{
+    margin: 0px auto;
+    width: 100%;
+    padding-bottom: 120px;
+    /* height: 1300px; */
+    background:#F7F7F7;
+}
+.imgs>div{
+    width: 1000px;
+    margin: 0px auto; 
+}
+.imgs_a{
+    margin: 0px auto;
+    width: 100%;
+    padding-bottom: 120px;
+    /* height: 1300px; */
+    background:#F7F7F7;
+}
+.imgs_a>div{
+    width: 1000px;
+    margin: 0px auto; 
+}
+.list{
+    margin-top: 12px;
+    width: 1000px;  
+}
+.list>li{
+    border-radius: 10px;
+    width: 219px;
+    height: 288px;
+    margin: 14px;
+    float: left;
+    background: #FFFFFF;
+    border:1px solid #eef0ef;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.list>li>img{
+    width:219px;
+    border-radius: 10px 10px 0 0;
+     
+}
+.list>li>span{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.list>li>span>img{
+    border-radius: 0 10px 0 5px;
+}
+.list>li>.text{
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.list>li>.num{
+    text-align: center;
+    bottom:15px;
+    right: 10px;
+}
+.list>li>.num>span{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 9px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #333333;
+    margin-left: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.list>li>.green>span{
+    border: 1px solid #52e90c;;
+}
+.list>li>p{
+    font-size: 13px;
+    text-align: center;
+}
+.list>li>p>span{
+    color: red;
+}
+.list>li>a{
+    position: absolute;
+    bottom: 30px;
+    left:88px;
+    font-size: 12px;
+    
+}
+.pa{
+    width: 1200px;
+    height: 120px;
+    position: relative;
+}
+
+.pa .load{
+    width: 160px;
+    position: absolute;
+    left: 682px;
+    background: url(../css/img/more.png) 6px 8px   no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #f79c92;
+    margin-top: 30px;
+}
+.pa .load1{
+    width: 120px;
+    position: absolute;
+    top:0px;
+    left: 700px;
+    background: url(../css/img/loading-icon.gif) -6px 0px   no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #f79c92;
+    margin-top: 30px;
+}
+/* 分享 */
+/* .pa1{
+    width: 1200px;
+    height: 120px;
+    position: relative;
+}
+.pa1 .load{
+    width: 160px;
+    position: absolute;
+    left: 682px;
+    background: url(../css/img/more.png) 6px 8px   no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #f79c92;
+    margin-top: 30px;
+}
+.pa1 .load1{
+    width: 120px;
+    position: absolute;
+    top:0px;
+    left: 700px;
+    background: url(../css/img/loading-icon.gif) -6px 0px   no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #f79c92;
+    margin-top: 30px;
+} */
+.flash:hover {
+    animation: free 1s infinite;
+}
+@keyframes free{
+    0%{
+        opacity:1
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.25;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0.75;
+    }
+}
+#bt{
+	position: absolute;
+	right:10px;
+    top: 700px;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgb(red, green, blue);;
+    color: #333333;
+}  
